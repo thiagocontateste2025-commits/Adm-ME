@@ -25,13 +25,13 @@
 
     <fragment
     android:id="@+id/nav_clientes"
-    android:name="com.example.admme.ClientesFragment"
+    android:name="com.example.admme.ui.ClientesFragment"
     android:label="Clientes"
     tools:layout="@layout/fragment_clientes"/>
 
     <fragment
     android:id="@+id/nav_vendas"
-    android:name="com.example.admme.VendasFragment"
+    android:name="com.example.admme.ui.VendasFragment"
     android:label="Vendas"
     tools:layout="@layout/fragment_vendas"
 
