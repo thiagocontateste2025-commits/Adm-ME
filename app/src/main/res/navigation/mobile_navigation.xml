@@ -12,18 +12,6 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.admme.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.admme.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-
-    <fragment
     android:id="@+id/nav_clientes"
     android:name="com.example.admme.ui.ClientesFragment"
     android:label="Clientes"
@@ -34,10 +22,13 @@
     android:name="com.example.admme.ui.VendasFragment"
     android:label="Vendas"
     tools:layout="@layout/fragment_vendas"
-
     />
 
-
-
+    <fragment
+        android:id="@+id/nav_Produtos"
+        android:name="com.example.admme.ui.ProdutosFragment"
+        android:label="Produtos"
+        tools:layout="@layout/fragment_produtos"
+        />
 
 </navigation>
